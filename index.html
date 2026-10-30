@@ -1,0 +1,667 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystique Palate | A Little Taste of Magic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#home" class="logo">✳ Mystique Palate</a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Our Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">A LITTLE TASTE OF MAGIC</p>
+                <h1>Good Food.<br><span>Beautiful Moments.</span></h1>
+                <p>
+                    Discover comforting favorites, delicious creations,
+                    and memorable moments at Mystique Palate.
+                </p>
+                <a href="#menu" class="main-button">Explore Our Menu ↗</a>
+            </div>
+
+            <!-- c:\Users\malin\Downloads\1.jpg --> 
+            <div class="hero-image">
+                <img src="images/1.jpg"
+                     alt="Mystique Palate Cafe">
+            </div>
+        </section>
+
+       
+<section class="about-section" id="about">
+
+    <div class="about-heading">
+        <span>OUR SPACE</span>
+        <h2>A Place to Feel at Home</h2>
+        <p>
+            Step into Mystique Palate, where cozy surroundings
+            and beautiful moments come together.
+        </p>
+    </div>
+
+    <div class="interior-gallery">
+
+        <div class="interior-main">
+            <img src="images/interior3.jpg"
+                 alt="Mystique Palate cafe interior">
+        </div>
+
+        <div class="interior-side">
+            <img src="images/interior2.jpg"
+                 alt="Mystique Palate seating area">
+
+            <img src="images/interior1.jpg"
+                 alt="Mystique Palate cafe atmosphere">
+        </div>
+
+    </div>
+
+</section>
+
+
+        <section class="menu-section" id="menu">
+            <div class="section-heading">
+                <p class="eyebrow">MADE WITH LOVE</p>
+                <h2>Our Menu</h2>
+                <p>Find your next favorite, one delicious bite at a time.</p>
+            </div>
+
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All Items</button>
+                <button class="filter-btn" data-filter="signature">Chef's Signature</button>
+                <button class="filter-btn" data-filter="breakfast">All-Day Breakfast</button>
+                <button class="filter-btn" data-filter="appetizers">Appetizers</button>
+                <button class="filter-btn" data-filter="drinks">Drinks</button>
+            </div>
+
+            <div class="menu-grid">
+
+                <!-- CHEF'S SIGNATURE PLATES -->
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/spaghetti-bolognese.jpg" alt="Spaghetti Bolognese"> -->
+                        <img src="images/bolognese.jpg">
+                         
+                    </div>
+                    <div class="menu-info">
+                        <h3>Spaghetti Bolognese</h3>
+                        <p>A classic pasta favorite with rich meat sauce.</p>
+                        <div class="price">₱360</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/carbonara.jpg" alt="Carbonara"> -->
+                        <img src="images/carbonara.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Carbonara</h3>
+                        <p>Creamy, comforting, and full of flavor.</p>
+                        <div class="price">₱330</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/chicken-caesar-salad.jpg" alt="Chicken Caesar Salad"> -->
+                        <img src="images/ceasar.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Chicken Caesar Salad</h3>
+                        <p>Fresh greens topped with chicken and Caesar dressing.</p>
+                        <div class="price">₱320</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/double-chicken-sandwich.jpg" alt="Double Chicken Sandwich"> -->
+                         <img src="images/sandwhich.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Double Chicken Sandwich</h3>
+                        <p>A satisfying sandwich for chicken lovers.</p>
+                        <div class="price">₱350</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/penne-arrabbiata.jpg" alt="Penne Arrabbiata"> -->
+                        <img src="images/kawali.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>kawali</h3>
+                        <p>Savor the crunch, taste the tradition — our Kawali brings golden, crispy perfection in every bite!.</p>
+                        <div class="price">₱370</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/pesto-porkchop.jpg" alt="Pesto Porkchop"> -->
+                        <img src="images/porkchop.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Pesto Porkchop</h3>
+                        <p>A savory porkchop paired with pesto flavors.</p>
+                        <div class="price">₱340</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/baked-lemon-chicken.jpg" alt="Baked Lemon Chicken"> -->
+                         <img src="images/baked lemon chicken.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Baked Lemon Chicken</h3>
+                        <p>Tender baked chicken with a refreshing lemon touch.</p>
+                        <div class="price">₱370</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/truffle-pasta.jpg" alt="Truffle Pasta"> -->
+                         <img src="images/truffle.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Truffle Pasta</h3>
+                        <p>An indulgent pasta with aromatic truffle flavor.</p>
+                        <div class="price">₱380</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/meatball-bolognese.jpg" alt="Meatball Bolognese"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Meatball Bolognese</h3>
+                        <p>Hearty meatballs served with rich Bolognese sauce.</p>
+                        <div class="price">₱390</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/baked-ribs.jpg" alt="Seven-Hour Baked Ribs"> -->
+                         <img src="images/ribs.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Premium American 7-Hour Baked Ribs</h3>
+                        <p>Slow-baked ribs made for a rich, satisfying meal.</p>
+                        <div class="price">Solo ₱525</div>
+                        <p class="serving">Tray · 6 pax: ₱2,900</p>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/baked-salmon.jpg" alt="Baked Salmon"> -->
+                        <img src="images/salmon.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Baked Salmon</h3>
+                        <p>A delicious salmon dish for a special meal.</p>
+                        <div class="price">Solo ₱650</div>
+                        <p class="serving">Tray · 6 pax: ₱4,200</p>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/lasagna.jpg" alt="Four-Cheese Lean Beef Lasagna"> -->
+                         <img src="images/lasagna.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>4-Cheese Lean Beef Lasagna</h3>
+                        <p>Layers of pasta, lean beef, and four cheeses.</p>
+                        <div class="price">Solo ₱420</div>
+                        <p class="serving">Small tray · 4–6 pax: ₱1,900</p>
+                        <p class="serving">Medium tray · 8–10 pax: ₱2,600</p>
+                        <p class="serving">Large tray · 12–15 pax: ₱4,200</p>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="signature">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/summer-green-salad.jpg" alt="Mystique Summer Green Salad"> -->
+                        <img src="images/summer green.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Mystique Summer Green Salad</h3>
+                        <p>A refreshing mix of greens for a lighter bite.</p>
+                        <div class="price">Solo ₱340</div>
+                        <p class="serving">Tray · 10–12 pax: ₱3,200</p>
+                    </div>
+                </article>
+
+                <!-- ALL-DAY BREAKFAST -->
+                <article class="menu-card" data-category="breakfast">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/greek-yogurt.jpg" alt="Greek Yogurt"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Greek Yogurt</h3>
+                        <p>A creamy and refreshing breakfast option.</p>
+                        <div class="price">₱220</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="breakfast">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/french-toast.jpg" alt="French Toast"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>French Toast</h3>
+                        <p>Golden, sweet, and deliciously comforting.</p>
+                        <div class="price">₱180</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="breakfast">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/pancakes.jpg" alt="Pancakes"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Pancake</h3>
+                        <p>Soft and fluffy pancakes for any time of day.</p>
+                        <div class="price">₱160</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="breakfast">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/hotdogsilog.jpg" alt="Hotdogsilog"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Hotdogsilog</h3>
+                        <p>A Filipino breakfast favorite with garlic rice and egg.</p>
+                        <div class="price">₱190</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="breakfast">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/cornsilog.jpg" alt="Cornsilog"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Cornsilog</h3>
+                        <p>A classic corn-based silog breakfast.</p>
+                        <div class="price">₱180</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="breakfast">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/longsilog.jpg" alt="Longsilog"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Longsilog</h3>
+                        <p>Sweet Filipino longganisa with rice and egg.</p>
+                        <div class="price">₱170</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="breakfast">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/spamsilog.jpg" alt="Spamsilog"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Spamsilog</h3>
+                        <p>Spam served with garlic rice and egg.</p>
+                        <div class="price">₱210</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="breakfast">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/longaspamsilog.jpg" alt="Longaspamsilog"> -->
+                        <img src="images/longaspam.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Longaspamsilog</h3>
+                        <p>A hearty combination of longganisa, Spam, rice, and egg.</p>
+                        <div class="price">₱250</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="breakfast">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/bangsilog.jpg" alt="Bangsilog"> -->
+                        <img src="images/bangsilog.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Bangsilog</h3>
+                        <p>Fried bangus served with garlic rice and egg.</p>
+                        <div class="price">₱280</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="breakfast">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/hungariansilog.jpg" alt="Hungariansilog"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Hungariansilog</h3>
+                        <p>Hungarian sausage with garlic rice and egg.</p>
+                        <div class="price">₱205</div>
+                    </div>
+                </article>
+
+                <!-- APPETIZERS -->
+                <article class="menu-card" data-category="appetizers">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/potato-wedges.jpg" alt="Potato Wedges"> -->
+                        <img src="images/wedges.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Potato Wedges</h3>
+                        <p>Golden potato wedges, perfect for sharing.</p>
+                        <div class="price">₱180</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="appetizers">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/mushroom-soup.jpg" alt="Creamy Mushroom Soup"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Creamy Mushroom Soup</h3>
+                        <p>A warm, creamy soup with savory mushroom flavor.</p>
+                        <div class="price">₱220</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="appetizers">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/fries.jpg" alt="Fries"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Fries</h3>
+                        <p>Crispy golden fries for any occasion.</p>
+                        <div class="price">₱190</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="appetizers">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/bruschetta.jpg" alt="Bruschetta"> -->
+                        <img src="images/bruschetta.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Bruschetta</h3>
+                        <p>A delightful appetizer served on toasted bread.</p>
+                        <div class="price">₱220</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="appetizers">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/chips-and-dips.jpg" alt="Chips and Dips"> -->
+                        <span>FOOD PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Chips and Dips</h3>
+                        <p>Crunchy chips paired with delicious dips.</p>
+                        <div class="price">₱190</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="appetizers">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/chicken-fingers.jpg" alt="Chicken Fingers"> -->
+                        <img src="images/fingers.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Chicken Fingers</h3>
+                        <p>Crispy chicken strips for a satisfying snack.</p>
+                        <div class="price">₱240</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="appetizers">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/duochicknacho.jpg" alt="Duo Chick Nacho"> -->
+                        <img src="images/duochick.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Duo Chick Nacho</h3>
+                        <p>A shareable nacho treat with chicken.</p>
+                        <div class="price">₱399</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="appetizers">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/nachos-overload.jpg" alt="Nachos Overload"> -->
+                        <img src="images/nachos.jpg">
+                    </div>
+                    <div class="menu-info">
+                        <h3>Nachos Overload</h3>
+                        <p>A loaded nacho platter for sharing.</p>
+                        <div class="price">₱340</div>
+                        <p class="serving">Serving options: 1–2 pax or 3–4 pax</p>
+                    </div>
+                </article>
+
+                <!-- DRINKS -->
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/bottled-water.jpg" alt="Bottled Water"> -->
+                        <span>DRINK PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Bottled Water</h3>
+                        <p>Simple and refreshing.</p>
+                        <div class="price">₱35</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/cali.jpg" alt="Cali"> -->
+                        <span>DRINK PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Cali</h3>
+                        <p>A sparkling fruity drink.</p>
+                        <div class="price">₱75</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/soda.jpg" alt="Soda"> -->
+                        <span>DRINK PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Soda</h3>
+                        <p>A classic fizzy refreshment.</p>
+                        <div class="price">₱70</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/gatorade.jpg" alt="Gatorade"> -->
+                        <span>DRINK PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Gatorade</h3>
+                        <p>A refreshing sports drink.</p>
+                        <div class="price">₱80</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/rite-and-lite.jpg" alt="Rite and Lite"> -->
+                        <span>DRINK PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Rite & Lite</h3>
+                        <p>A light, refreshing beverage.</p>
+                        <div class="price">₱65</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/root-beer.jpg" alt="Root Beer"> -->
+                        <span>DRINK PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Root Beer</h3>
+                        <p>A classic sweet and fizzy favorite.</p>
+                        <div class="price">₱65</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/san-mig-pilsen.jpg" alt="San Mig Pilsen"> -->
+                        <span>DRINK PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>San Mig Pilsen</h3>
+                        <p>San Miguel Pilsen beer.</p>
+                        <div class="price">₱90</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/san-mig-flavored.jpg" alt="San Mig Flavored"> -->
+                        <span>DRINK PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>San Mig Flavored</h3>
+                        <p>A flavored beer selection.</p>
+                        <div class="price">₱90</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/red-horse.jpg" alt="Red Horse"> -->
+                        <span>DRINK PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Red Horse</h3>
+                        <p>Red Horse beer.</p>
+                        <div class="price">₱90</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/tea.jpg" alt="Tea"> -->
+                        <span>DRINK PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Tea</h3>
+                        <p>A refreshing tea selection.</p>
+                        <div class="price">₱99</div>
+                    </div>
+                </article>
+
+                <article class="menu-card" data-category="drinks">
+                    <div class="menu-image">
+                        <!-- Add image: <img src="images/lemon-cucumber.jpg" alt="Lemon Cucumber Pitcher"> -->
+                        <span>DRINK PHOTO</span>
+                    </div>
+                    <div class="menu-info">
+                        <h3>Lemon Cucumber Pitcher</h3>
+                        <p>A refreshing blend of lemon and cucumber.</p>
+                        <div class="price">₱250</div>
+                    </div>
+                </article>
+
+            </div>
+            <p class="no-results" hidden>No items found in this category.</p>
+        </section>
+
+        <section class="closing">
+            <p class="eyebrow">YOUR TABLE IS WAITING</p>
+            <h2>Make Every Meal a Little Magical.</h2>
+
+    <!-- PUT THE FACEBOOK BUTTON HERE -->
+    <a href="https://www.facebook.com/profile.php?id=61589586893012"
+       class="main-button"
+       target="_blank"
+       rel="noopener noreferrer">
+        Visit Mystique Palate ↗
+    </a>
+     <p class="contact-number">
+        Call or text us:
+        <a href="tel:+639912618139">09912618139</a>
+    </p>
+</section>
+
+        </section>
+    </main>
+
+    <footer id="contact">
+        <a href="#home" class="logo">✳ Mystique Palate</a>
+        <p>A Little Taste of Magic</p>
+        <p class="footer-note">Good food, warm moments, lasting memories.</p>
+        <!-- Add your address, phone number, and social media links here -->
+        <p class="copyright">
+            &copy; <span id="year"></span> Mystique Palate. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+<!-- Facebook Order Summary Modal -->
+<div id="orderModal" class="order-modal" style="display: none;">
+  <div class="order-modal-content">
+    <button class="close-order" onclick="closeOrderModal()"
+      aria-label="Close">&times;</button>
+
+    <h2>Your Order Summary</h2>
+    <p>Review your order before sending it to Mystique Palate.</p>
+
+    <textarea id="orderSummary" readonly></textarea>
+
+    <button type="button" onclick="copyOrderSummary()">
+      Copy Order Summary
+    </button>
+
+    <button type="button" onclick="sendOrderToFacebook()">
+      Continue to Facebook
+    </button>
+
+    <p id="copyMessage" aria-live="polite"></p>
+  </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
